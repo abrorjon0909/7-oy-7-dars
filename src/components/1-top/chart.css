@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(202, 173, 135);
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  .barchart {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .input {
+    padding: 8px;
+    border-radius: 10px;
+  margin-right: 20px;
+  }
+  .button {
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+    background-color: rgb(86, 86, 175);
+  }
+  .button:hover {
+    background: rgb(169, 187, 203);
+  }
+  .hr {
+    border: 2px dotted black;
+  }
+    
