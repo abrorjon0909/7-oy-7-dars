@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(202, 173, 135);
+    background-color: rgb(49, 54, 101);
   }
   .container {
     max-width: 1200px;
@@ -13,6 +13,7 @@
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    border-radius: 30px;
   }
   .input {
     padding: 8px;
@@ -30,5 +31,23 @@
   }
   .hr {
     border: 2px dotted black;
+    margin-bottom: 20px;
   }
-    
+
+  .h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .option {
+    font-size: 15px;
+  }
+
+  .select {
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+  }
+  .select:hover {
+    background-color: bisque;
+  }

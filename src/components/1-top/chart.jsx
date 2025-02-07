@@ -6,6 +6,10 @@ export default function Chart() {
   const [data, setData] = useState([
     { oy: "Yanvar", savdo: 900 },
     { oy: "Fevral", savdo: 300 },
+    { oy: "Mart", savdo: 200 },
+    { oy: "Aprel", savdo: 600 },
+    { oy: "May", savdo: 500 },
+
   ]);
   const [oy, setOy] = useState("");
   const [savdo, setSavdo] = useState("");
@@ -27,18 +31,18 @@ export default function Chart() {
 
   return (
     <div className="container">
-      <h2>1-topshiriq</h2>
+      <h2>2-topshiriq</h2>
       <input
         className="input"
         type="text"
-        placeholder="Oy"
+        placeholder="Oy ✈️"
         value={oy}
         onChange={(e) => setOy(e.target.value)}
       />
       <input
         className="input"
         type="number"
-        placeholder="Savdo"
+        placeholder="Savdo ✈️"
         value={savdo}
         onChange={(e) => setSavdo(e.target.value)}
       />
